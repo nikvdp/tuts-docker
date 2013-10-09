@@ -3,7 +3,7 @@ import redis
 r = redis.StrictRedis(host='localhost', port=6379, db=0)
 
 def main():
-    run(host='localhost', port=8080)
+    run(host='0.0.0.0', port=8080)
 
 BASE_TEMPLATE = """
         <!DOCTYPE html>
